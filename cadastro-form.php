@@ -36,4 +36,6 @@ if($cnpjForm !== null){
     $pessoa = new PessoaJuridica($nomeForm,$emailForm,$cnpj,$endereco,$data,$telefone);
 }
 
+
 echo json_encode($pessoa);
+
